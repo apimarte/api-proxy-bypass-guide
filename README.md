@@ -12,7 +12,7 @@
 
 > **from $0.016 per image** (1K $0.016 · 2K $0.016) — one OpenAI-compatible endpoint at `https://api.apimart.ai/v1`, no monthly plan required. *(observed 2026-10-12)*
 
-**[Get an API key](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-keys)** · **[Live pricing](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-pricing)** · **[Model page](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-model)** · [⚡ 60-second quickstart](#quickstart)
+**[Get an API key](https://go.apimart.ai/k-227182)** · **[Live pricing](https://go.apimart.ai/k-dfa99b)** · **[Model page](https://go.apimart.ai/k-e735ef)** · [⚡ 60-second quickstart](#quickstart)
 
 **Why teams call Grok Imagine Image (`grok-imagine-image`) through APIMart**
 
@@ -29,7 +29,7 @@ Grok Imagine Image is xAI's image API for photorealistic text-to-image and image
 
 | Route | `model` value | Billing | Notes |
 | --- | --- | --- | --- |
-| Per-image | `grok-imagine-image` | per delivered image, by resolution | see the [model page](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-model) for the exact tiers |
+| Per-image | `grok-imagine-image` | per delivered image, by resolution | see the [model page](https://go.apimart.ai/k-e735ef) for the exact tiers |
 
 Endpoint: `POST https://api.apimart.ai/v1/images/generations` (OpenAI-compatible), then poll `GET /v1/tasks/{task_id}`.
 
@@ -44,7 +44,7 @@ Endpoint: `POST https://api.apimart.ai/v1/images/generations` (OpenAI-compatible
 
 <!-- pricing:model:end -->
 
-Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-pricing) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
+Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-dfa99b) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
 
 ## Request parameters
 
@@ -58,7 +58,7 @@ Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-PENDING-grok-i
 | `image_urls` | string[] | — | reference images as public HTTP(S) URLs or base64 data URLs |
 | `nsfw_check` | boolean | `false` | runs `omni-moderation-latest` before submitting |
 
-The table lists the fields accepted by the APIMart OpenAI-compatible image endpoint. Check the [model page](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-model) for anything this model adds on top.
+The table lists the fields accepted by the APIMart OpenAI-compatible image endpoint. Check the [model page](https://go.apimart.ai/k-e735ef) for anything this model adds on top.
 
 ## Quickstart
 
@@ -101,15 +101,15 @@ Runnable versions: [`examples/`](examples). The task lifecycle is `pending → p
 
 **How do I get a key?**
 
-Use the [Get an API key](https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-keys) link — $1 minimum top-up, no plan required.
+Use the [Get an API key](https://go.apimart.ai/k-227182) link — $1 minimum top-up, no plan required.
 
 ## Attributed links (how this repository is measured)
 
 | Purpose | Attributed link | Target |
 | --- | --- | --- |
-| Model page | <https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-model> | `apimart.ai/fr/model/grok-image` |
-| Live pricing | <https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-pricing> | `apimart.ai/fr/pricing` |
-| Get an API key | <https://go.apimart.ai/k-PENDING-grok-imagine-image-api-fr-keys> | `apimart.ai/fr/keys` |
+| Model page | <https://go.apimart.ai/k-e735ef> | `apimart.ai/fr/model/grok-image` |
+| Live pricing | <https://go.apimart.ai/k-dfa99b> | `apimart.ai/fr/pricing` |
+| Get an API key | <https://go.apimart.ai/k-227182> | `apimart.ai/fr/keys` |
 
 Outbound APIMart links are minted through the promo link API; hand-made tracking parameters are rejected by
 `tools/check_links.py` in CI.
